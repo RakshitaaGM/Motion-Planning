@@ -1,7 +1,7 @@
 # Motion-Planning
 This Repository contains the Assignments and Projects that were completed as a part of the Motion Planning course at CUICAR (Spring '20)
 
-##Project 1 - Sampling Based Local Navigation
+## Project 1 - Sampling Based Local Navigation
 
 #Project 2 - Local Navigation with TTC forces
 
