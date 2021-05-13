@@ -17,8 +17,6 @@ The program does the following:
 The environment looks like this:
 ![image](https://user-images.githubusercontent.com/59737146/118138903-d9982e80-b3d4-11eb-8832-c3b98fc56485.png)
 
- ![image](https://user-images.githubusercontent.com/59737146/118147100-3dbef080-b3dd-11eb-8409-8a1c14b2d35d.png)
-
 ## Project 2 - Local Navigation with TTC forces
 Implement the predictive TTC forces approach for local navigation.The approach can be considered as a variant of the PowerLaw model, as both approaches rely on forces that depend on the relative displacement of agents at the moment of a collision.
 The program does the following:
@@ -35,8 +33,18 @@ The program does the following:
 - Updates the velocities and positions of the agents based on the computed forces by using simple Euler integration
  
 ## Project 3 - Discrete Planning - A Star 
+Implemented A* to plan the discrete motion of a simple car. The car is moving on a 2D grid and its orientation can assume four distinct directions:
+{0:North, 1:West, 2:South, 3:East}. There are 3 possible actions that the car can take: U = {turn right then move forward, move forward, turn left then move forward}. The heuristic for the A* search is the number of steps to the 2D goal cell.
 
 ## Project 4 - Sampling Based Navigation
+Implemented the probabilistic roadmap method to answer motion planning queries for a 2D robot moving in an environment filled with static obstacles.
+implemented the two phases of PRM:
+-**Construction phase** - A roadmap for the given problem was built that captures the connectivity of the free configuration space.
+-**Query phase** - Plans a path for a given initial configuration toa given goal configuration
+**Result:**
+
+![image](https://user-images.githubusercontent.com/59737146/118148406-862ade00-b3de-11eb-9680-17dddbda7798.png)
+
 
 ## Final Project - Motion Planning for Dubins Car using RRT 
 
