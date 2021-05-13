@@ -39,8 +39,11 @@ Implemented A* to plan the discrete motion of a simple car. The car is moving on
 ## Project 4 - Sampling Based Navigation
 Implemented the probabilistic roadmap method to answer motion planning queries for a 2D robot moving in an environment filled with static obstacles.
 implemented the two phases of PRM:
+
 -**Construction phase** - A roadmap for the given problem was built that captures the connectivity of the free configuration space.
+
 -**Query phase** - Plans a path for a given initial configuration toa given goal configuration
+
 **Result:**
 
 ![image](https://user-images.githubusercontent.com/59737146/118148406-862ade00-b3de-11eb-9680-17dddbda7798.png)
