@@ -12,7 +12,6 @@ The program does the following:
 - Uses the following cost function:
 
  ![image](https://user-images.githubusercontent.com/59737146/118138097-eff1ba80-b3d3-11eb-85a3-73aca6cd70e2.png)
- 
 - Calculates time to collision
 - Updates cadidate velocity which has less cost function value
 The environment looks like this:
