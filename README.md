@@ -9,7 +9,8 @@ The program does the following:
 - computes new velocity for each of the agent
 - Determins the neighbouring agents which are present within a distance less than sensing radius, dh.
 - Samples a velocity within the admissible space. Candidate velcoities are chosen between 100-1000.
-- Uses the following cost function: ![image](https://user-images.githubusercontent.com/59737146/118138097-eff1ba80-b3d3-11eb-85a3-73aca6cd70e2.png)
+- Uses the following cost function:
+ ![image](https://user-images.githubusercontent.com/59737146/118138097-eff1ba80-b3d3-11eb-85a3-73aca6cd70e2.png)
 - Calculates time to collision
 - updates cadidate velocity which has less cost function value
 The environment looks like this:
