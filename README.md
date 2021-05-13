@@ -17,8 +17,23 @@ The program does the following:
 The environment looks like this:
 ![image](https://user-images.githubusercontent.com/59737146/118138903-d9982e80-b3d4-11eb-8832-c3b98fc56485.png)
 
-## Project 2 - Local Navigation with TTC forces
+![image](https://user-images.githubusercontent.com/59737146/118147100-3dbef080-b3dd-11eb-8409-8a1c14b2d35d.png)
 
+## Project 2 - Local Navigation with TTC forces
+Implement the predictive TTC forces approach for local navigation.The approach can be considered as a variant of the PowerLaw model, as both approaches rely on forces that depend on the relative displacement of agents at the moment of a collision.
+The program does the following:
+- Load a simulation scenario and set the time step delta t to be 0:05 s
+- Computes a collection of forces that determine the behavior of the agent at each simulation step, and then update its position and velocity for each of the n agents.
+- The following formula was used to determine the goal force:
+
+![image](https://user-images.githubusercontent.com/59737146/118146550-b8d3d700-b3dc-11eb-8d4a-e9fa03854d8b.png)
+- Determines all neighbors of the agent that are less than dH m away from the agent
+- Estimates the time to collision value for each of the neighbours.
+- Adds a repulsive force if collision is detected. the formula used for repulsive force:
+
+![image](https://user-images.githubusercontent.com/59737146/118146857-03edea00-b3dd-11eb-835e-8efd35b0b04e.png)
+- Updates the velocities and positions of the agents based on the computed forces by using simple Euler integration
+ 
 ## Project 3 - Discrete Planning - A Star 
 
 ## Project 4 - Sampling Based Navigation
