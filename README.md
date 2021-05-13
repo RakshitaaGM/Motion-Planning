@@ -17,7 +17,7 @@ The program does the following:
 The environment looks like this:
 ![image](https://user-images.githubusercontent.com/59737146/118138903-d9982e80-b3d4-11eb-8832-c3b98fc56485.png)
 
-![image](https://user-images.githubusercontent.com/59737146/118147100-3dbef080-b3dd-11eb-8409-8a1c14b2d35d.png)
+ ![image](https://user-images.githubusercontent.com/59737146/118147100-3dbef080-b3dd-11eb-8409-8a1c14b2d35d.png)
 
 ## Project 2 - Local Navigation with TTC forces
 Implement the predictive TTC forces approach for local navigation.The approach can be considered as a variant of the PowerLaw model, as both approaches rely on forces that depend on the relative displacement of agents at the moment of a collision.
