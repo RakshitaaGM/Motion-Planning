@@ -50,6 +50,10 @@ implemented the two phases of PRM:
 
 
 ## Final Project - Motion Planning for Dubins Car using RRT 
+Implemented the RRT algorithm for planning the path of the non-holonomic car (Dubin's car model) to move fomr initial state to final state.
+
+**Result:**
+![image](https://user-images.githubusercontent.com/59737146/118149084-37ca0f00-b3df-11eb-8b58-e612c4dbf0f8.png)
 
 
 # Licensing Information:  
